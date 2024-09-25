@@ -1,0 +1,96 @@
+
+.navigation{
+    background: rgba(255, 255, 255, .4);
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-flex;
+    gap: 5px;
+
+    // &Btn {
+    //     min-width: 45px;
+    //     display: block;
+    //     height: 45px;
+    //     border: none;
+    //     padding: 0;
+    //     background: #003049 url('./images/arrow-left.svg')no-repeat center center;
+    //     text-indent: -1234em;
+    //     background-size: 52% auto;
+    //     transition: opacity .3s ease, background-color 0.3s ease;
+    //     cursor: pointer;
+    //     border-radius: 5px;
+
+    //     &Rigth{
+    //         background-image: url('./images/arrow-rigth.svg');
+    //     }
+
+    //     &:hover{
+    //         opacity: 0.7;
+    //     }
+
+    //     &:disabled{
+    //         background-color: transparent;
+    //         cursor: default;
+    //         opacity: 0.5;
+
+    //         &:hover{
+    //             opacity: 0.5;
+    //         }
+    //     }
+    // }
+}
+
+.navigationBtnLeft{
+    min-width: 45px;
+    display: block;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: #003049 url('./images/arrow-left.svg')no-repeat center center;
+    text-indent: -1234em;
+    background-size: 52% auto;
+    transition: opacity .3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover{
+        opacity: 0.7;
+    }
+
+    &:disabled{
+        background-color: transparent;
+        cursor: default;
+        opacity: .5;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+}
+
+.navigationBtnRigth{
+    min-width: 45px;
+    display: block;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: #003049 url('./images/arrow-right.svg')no-repeat center center;
+    text-indent: -1234em;
+    background-size: 52% auto;
+    transition: opacity .3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover{
+        opacity: 0.7;
+    }
+
+    &:disabled{
+        background-color: transparent;
+        cursor: default;
+        opacity: 0.5;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
